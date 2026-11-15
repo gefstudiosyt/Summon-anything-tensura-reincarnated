@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "summonanything:block/magic_station_top",
+    "bottom": "summonanything:block/magic_station_bottom",
+    "side": "summonanything:block/magic_station_side",
+    "particle": "summonanything:block/magic_station_side"
+  }
+}

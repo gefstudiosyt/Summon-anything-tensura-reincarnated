@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "summonanything",
+  "version": "${version}",
+  "name": "Summon Anything",
+  "description": "Lets Tensura's Summon Otherworlder spell summon any mob from any mod. Mobs are listed in config/summonanything.json.",
+  "authors": [
+    "gefstudiosyt"
+  ],
+  "contact": {
+    "homepage": "https://github.com/gefstudiosyt"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.summonanything.SummonAnything"
+    ],
+    "client": [
+      "dev.summonanything.SummonAnythingClient"
+    ]
+  },
+  "mixins": [
+    "summonanything.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "tensura": "*"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OBO",
+    "OEO",
+    "OOO"
+  ],
+  "key": {
+    "O": { "item": "minecraft:obsidian" },
+    "B": { "item": "minecraft:book" },
+    "E": { "item": "minecraft:ender_eye" }
+  },
+  "result": { "id": "summonanything:magic_station", "count": 1 }
+}
